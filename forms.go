@@ -87,6 +87,7 @@ type Option struct {
 		FilterResource             bool   `json:"filterResource"`
 		Group                      string `json:"group"`
 		GroupId                    string `json:"groupId"`
+		GroupField                 string `json:"groupField"`
 		GroupFieldType             string `json:"groupFieldType"`
 		InstanceTypeCode           string `json:"instanceTypeCode"`
 		InstanceTypeFieldCode      string `json:"instanceTypeFieldCode"`
